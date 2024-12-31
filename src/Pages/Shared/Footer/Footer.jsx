@@ -3,7 +3,7 @@
 const Footer = () => {
   return (
     <div>
-      <footer className="footer bg-neutral text-neutral-content ">
+      <footer className=" bg-neutral text-neutral-content ">
         <div className="flex items-center justify-between h-28]">
           {/* aside */}
           <aside className="bg-gray-500 px-5 py-2 w-[50%]">
@@ -24,7 +24,7 @@ const Footer = () => {
               Providing reliable tech since 1992
             </p>
           </aside>
-          <nav className="bg-gray-500 px-5 h-full py-2 w-[50%]">
+          <nav className="px-5 h-full py-2 w-[50%]">
             <h6 className="footer-title">Social</h6>
             <div className="grid grid-flow-col  gap-4">
               <a>
@@ -64,7 +64,9 @@ const Footer = () => {
           </nav>
         </div>
         {/* copyright section */}
-        <div className="text-center bg-gray-300 text-base-content p-4">
+        
+      </footer>
+      <div className="text-center bg-black-500  text-base-content p-4">
           <aside>
             <p>
               Copyright © {new Date().getFullYear()} - All right reserved by
@@ -72,7 +74,6 @@ const Footer = () => {
             </p>
           </aside>
         </div>
-      </footer>
     </div>
   );
 };
