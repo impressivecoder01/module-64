@@ -4,7 +4,7 @@ import featuredImg from '../../../assets/home/featured.jpg'
 import './Featured.css'
 const Featured = () => {
     return (
-        <div className='featured-item'>
+        <div className='featured-item bg-fixed'>
             <SectionTitle subHeading={'Check It Out'} heading={'Featured Item'}
             ></SectionTitle>
             <div className='md:flex gap-3 justify-center items-center pb-20 pt-12 px-36'>
