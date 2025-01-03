@@ -12,15 +12,15 @@ const PopularMenu = () => {
         setMenu(popularItems);
       });
   }, []);
-  console.log(menu);
+  
   return (
     <div>
-      <section>
+      <section className="my-8">
         <SectionTitle
           heading={"From Our Menu"}
           subHeading={"Popular Items"}
         ></SectionTitle>
-        <div>
+        <div className="grid md:grid-cols-2 gap-3">
           {menu.map((item) => (
             <MenuItem key={item._id} item={item}></MenuItem>
           ))}
